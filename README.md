@@ -5,7 +5,7 @@
 </div>
 
 ---
-![My GitHub Trophies](https://github-profile-trophy.vercel.app/?username=ChrisHenilston777&cache_bust=2)
+[![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=ChrisHenilston777&show_icons=true&theme=radical&include_all_commits=true&count_private=true&show=stars,commits,prs,issues,contribs)](https://github.com/anuraghazra/github-readme-stats)
 
 <div align="center">
   <h1>Hi, I'm Chriss Hennilston 👋</h1>
