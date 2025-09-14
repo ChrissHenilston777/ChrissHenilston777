@@ -5,7 +5,7 @@
 </div>
 
 ---
-[![@YourUsername's Trophies](https://github-profile-trophy.vercel.app/?username=YourUsername)](https://github.com/ryo-ma/github-profile-trophy)
+[![@ChrisHenilston777's Trophies](https://github-profile-trophy.vercel.app/?username=ChrisHenilston777&theme=gruvbox&rank=S,A,B,C)](https://github.com/ryo-ma/github-profile-trophy)
 
 <div align="center">
   <h1>Hi, I'm Chriss Hennilston 👋</h1>
