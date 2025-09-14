@@ -8,7 +8,7 @@
 
 <div align="center">
   <h1>Hi, I'm Chriss Hennilston 👋</h1>
-  <h3>An Azure DevOps Engineer and Solution Architect based in Bengaluru 🇮🇳.</h3>
+  <h3>I am Azure DevOps Engineer and Solution Architect.</h3>
 </div>
 
 ---
