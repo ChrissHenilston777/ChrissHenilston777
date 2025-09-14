@@ -1,7 +1,7 @@
-<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
     <!-- 
-      Animated SVG for GitHub Profile README (More Compatible Version)
-      Description: A techie working with two monitors, a bash terminal, pod monitoring, and coffee.
+      Animated SVG for GitHub Profile README (Stylized Scene Version)
+      Description: A techie with headphones at a desk with two monitors, a bash terminal, pod monitoring, and coffee.
     -->
     <style>
         @keyframes fadeIn {
@@ -15,18 +15,18 @@
         }
         
         @keyframes pod-pulse-1 {
-            0%, 100% { height: 20px; y: 280px; }
-            50% { height: 80px; y: 220px; }
+            0%, 100% { height: 20px; y: 230px; }
+            50% { height: 60px; y: 190px; }
         }
 
         @keyframes pod-pulse-2 {
-            0%, 100% { height: 40px; y: 260px; }
-            50% { height: 90px; y: 210px; }
+            0%, 100% { height: 40px; y: 210px; }
+            50% { height: 70px; y: 180px; }
         }
 
         @keyframes pod-pulse-3 {
-            0%, 100% { height: 60px; y: 240px; }
-            50% { height: 30px; y: 270px; }
+            0%, 100% { height: 50px; y: 200px; }
+            50% { height: 25px; y: 225px; }
         }
         
         @keyframes steam-fumes {
@@ -39,34 +39,40 @@
             }
             100% {
                 opacity: 0;
-                transform: translateY(-40px) scale(1.2);
+                transform: translateY(-30px) scale(1.2);
             }
         }
 
-        .background { fill: #282c34; animation: fadeIn 1s ease-in; }
-        .monitor-frame { fill: #1a1c22; }
+        .background { fill: #2d3748; animation: fadeIn 1s ease-in; }
+        .window { fill: #1a202c; }
+        .cityscape { fill: #4a5568; }
+        .shelf { fill: #4a5568; }
+        .plant-pot { fill: #c0a080; }
+        .plant-leaf { fill: #48bb78; }
+
+        .monitor-frame { fill: #1a202c; }
         .monitor-screen { fill: #000; }
         .bash-text {
             font-family: 'Courier New', Courier, monospace;
-            fill: #33FF33;
-            font-size: 14px;
+            fill: #48bb78;
+            font-size: 12px;
         }
         .cursor {
-            fill: #33FF33;
+            fill: #48bb78;
             animation: blink-caret 1s step-end infinite;
         }
-        .pod { fill: #61afef; }
+        .pod { fill: #63b3ed; }
         .pod1 { animation: pod-pulse-1 3s ease-in-out infinite; }
         .pod2 { animation: pod-pulse-2 4s ease-in-out infinite; }
         .pod3 { animation: pod-pulse-3 2.5s ease-in-out infinite; }
 
-        .desk { fill: #4a4a4a; }
-        .keyboard { fill: #222; }
-        .cup { fill: #e0e0e0; }
-        .coffee { fill: #3b2a1a; }
+        .desk { fill: #718096; }
+        .keyboard { fill: #2d3748; }
+        .cup { fill: #e2e8f0; }
+        .coffee { fill: #6b4632; }
         .steam {
-            stroke: #b0b0b0;
-            stroke-width: 2;
+            stroke: #a0aec0;
+            stroke-width: 1.5;
             fill: none;
             opacity: 0;
             animation: steam-fumes 3s linear infinite;
@@ -74,39 +80,61 @@
         .steam1 { animation-delay: 0s; }
         .steam2 { animation-delay: 1s; }
         .steam3 { animation-delay: 2s; }
+
+        .character-shirt { fill: #e2e8f0; }
+        .character-hair { fill: #2d3748; }
+        .chair { fill: #4a5568; }
+        .headphones { fill: #2d3748; stroke: #a0aec0; stroke-width: 3; }
     </style>
 
-    <!-- Background -->
-    <rect class="background" width="800" height="400" />
+    <!-- Background and Room -->
+    <rect class="background" width="800" height="450" />
+    <rect class="window" x="250" y="50" width="300" height="150" />
+    <path class="cityscape" d="M260,200 L280,150 L300,180 L320,140 L350,200 Z M340,200 L360,120 L380,170 L420,100 L450,200 Z M440,200 L460,160 L490,200 Z M500,200 L520,150 L540,200 Z" />
+    <rect class="shelf" x="50" y="80" width="150" height="10" />
+    <rect class="shelf" x="600" y="80" width="150" height="10" />
+    <!-- Plant on shelf -->
+    <rect class="plant-pot" x="80" y="60" width="20" height="20" />
+    <circle class="plant-leaf" cx="85" cy="55" r="5" />
+    <circle class="plant-leaf" cx="95" cy="55" r="5" />
+    <circle class="plant-leaf" cx="90" cy="48" r="5" />
 
     <!-- Desk -->
-    <path class="desk" d="M0,350 L800,350 L800,400 L0,400 Z" />
+    <path class="desk" d="M0,400 L800,400 L780,450 L20,450 Z" />
+
+    <!-- Character and Chair -->
+    <g transform="translate(400, 320)">
+        <path class="chair" d="M-50,80 L50,80 L55,0 L-55,0 Z" />
+        <circle cx="0" cy="-30" r="30" class="character-hair" />
+        <path class="character-shirt" d="M-40,0 a40,40 0 0,1 80,0 L30,60 L-30,60 Z" />
+        <path class="headphones" d="M-25, -55 a30,30 0 0,1 50,0" fill="none" />
+        <circle cx="-25" cy="-55" r="8" class="headphones" />
+        <circle cx="25" cy="-55" r="8" class="headphones" />
+    </g>
 
     <!-- Monitor 1 (Bash) -->
-    <rect class="monitor-frame" x="50" y="100" width="300" height="200" rx="10"/>
-    <rect class="monitor-screen" x="60" y="110" width="280" height="180"/>
-    <text x="70" y="135" class="bash-text">> starting server...</text>
-    <rect x="210" y="122" width="10" height="16" class="cursor" />
+    <rect class="monitor-frame" x="100" y="150" width="250" height="150" rx="10"/>
+    <rect class="monitor-screen" x="110" y="160" width="230" height="130"/>
+    <text x="120" y="180" class="bash-text">> deploying pods...</text>
+    <rect x="250" y="168" width="8" height="14" class="cursor" />
 
     <!-- Monitor 2 (Pods) -->
-    <rect class="monitor-frame" x="450" y="100" width="300" height="200" rx="10"/>
-    <rect class="monitor-screen" x="460" y="110" width="280" height="180"/>
-    <text x="470" y="135" font-family="Arial" font-size="16" fill="#fff">Pod Monitoring</text>
-    <rect class="pod pod1" x="500" y="280" width="30" height="20" />
-    <rect class="pod pod2" x="550" y="260" width="30" height="40" />
-    <rect class="pod pod3" x="600" y="240" width="30" height="60" />
+    <rect class="monitor-frame" x="450" y="150" width="250" height="150" rx="10"/>
+    <rect class="monitor-screen" x="460" y="160" width="230" height="130"/>
+    <text x="470" y="180" font-family="Arial" font-size="14" fill="#fff">Pod Activity</text>
+    <rect class="pod pod1" x="500" y="230" width="25" height="20" />
+    <rect class="pod pod2" x="550" y="210" width="25" height="40" />
+    <rect class="pod pod3" x="600" y="200" width="25" height="50" />
 
     <!-- Keyboard -->
-    <rect class="keyboard" x="250" y="320" width="250" height="40" rx="5"/>
+    <rect class="keyboard" x="275" y="380" width="250" height="30" rx="5"/>
 
     <!-- Coffee Cup -->
-    <g transform="translate(680, 310)">
-        <rect class="cup" y="0" width="60" height="40" rx="5"/>
-        <rect class="coffee" y="5" x="5" width="50" height="10" />
-        <!-- Steam fumes -->
-        <path class="steam steam1" d="M15,0 Q20,-15 25,0 T35,0" />
-        <path class="steam steam2" d="M30,0 Q35,-20 40,0 T50,0" />
-        <path class="steam steam3" d="M22,0 Q27,-10 32,0 T42,0" />
+    <g transform="translate(680, 370)">
+        <rect class="cup" y="0" width="50" height="30" rx="3"/>
+        <rect class="coffee" y="3" x="4" width="42" height="8" />
+        <path class="steam steam1" d="M10,0 Q15,-15 20,0 T30,0" />
+        <path class="steam steam2" d="M25,0 Q30,-20 35,0 T45,0" />
     </g>
 </svg>
 
