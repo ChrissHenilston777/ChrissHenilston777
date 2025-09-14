@@ -5,7 +5,7 @@
 </div>
 
 ---
-![My GitHub Trophies](https://github-profile-trophy.vercel.app/?username=ChrisHenilston777&cache_bust=1)
+![My GitHub Trophies](https://github-profile-trophy.vercel.app/?username=ChrisHenilston777&cache_bust=3)
 
 <div align="center">
   <h1>Hi, I'm Chriss Hennilston 👋</h1>
