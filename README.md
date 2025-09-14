@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://holopin.io/@chrisshenilston777">
-    <img src="https://holopin.me/chrisshenilston777" alt="An image of @chrisshenilston777's Holopin badges, which is a link to view their full Holopin profile">
+    <img src="https://holopin.me/chrisshenilston777" alt="An image of @chrisshenilston777's Holopin badges">
   </a>
 </div>
 
@@ -9,6 +9,18 @@
 <div align="center">
   <h1>Hi, I'm Chriss Hennilston 👋</h1>
   <h3>An Azure DevOps Engineer and Solution Architect based in Bengaluru 🇮🇳.</h3>
+</div>
+
+---
+
+<div align="center">
+  <h3>My Certifications & Achievements</h3>
+  <a href="YOUR_CREDLY_VERIFICATION_URL_HERE">
+    <img src="YOUR_BADGE_IMAGE_URL_HERE" alt="Microsoft Certified: DevOps Engineer Expert Badge" width="150" height="150">
+  </a>
+  &nbsp;&nbsp; <a href="https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs57/Course/NPTEL25CS57S114220392104208860.pdf">
+    <img src="https://img.shields.io/badge/NPTEL_Java-Elite-gold" alt="NPTEL Programming in Java - Elite Certificate">
+  </a>
 </div>
 
 ---
