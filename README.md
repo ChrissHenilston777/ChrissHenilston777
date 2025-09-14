@@ -20,14 +20,6 @@
 [<img src="https://img.shields.io/badge/Starred-Repos-yellow?style=for-the-badge&logo=github"/>](https://github.com/ChrissHenilston777?tab=stars)
 [<img src="https://img.shields.io/badge/Projects-Board-green?style=for-the-badge&logo=github"/>](https://github.com/users/ChrissHenilston777/projects)
 
----
-
-<div align="center">
-  <h3>My Certifications & Achievements</h3>
-  &nbsp;&nbsp; <a href="https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs57/Course/NPTEL25CS57S114220392104208860.pdf">
-    <img src="https://img.shields.io/badge/NPTEL_Java-Elite-gold" alt="NPTEL Programming in Java - Elite Certificate">
-  </a>
-</div>
 
 ---
 
