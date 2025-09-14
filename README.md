@@ -16,6 +16,6 @@
 <h3 align="center">Languages, Tools, and Platforms I Use:</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=azure,docker,kubernetes,terraform,ansible,githubactions,bash,powershell,cs,dotnet,git,linux" />
+    <img src="https://skillicons.dev/icons?i=azure,kubernetes,docker,prometheus,grafana,linux,java,go,python,bash,powershell,flutter,jenkins" />
   </a>
 </p>
