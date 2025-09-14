@@ -1,0 +1,112 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+    <!-- 
+      Animated SVG for GitHub Profile README (More Compatible Version)
+      Description: A techie working with two monitors, a bash terminal, pod monitoring, and coffee.
+    -->
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes blink-caret {
+            from, to { opacity: 0; }
+            50% { opacity: 1; }
+        }
+        
+        @keyframes pod-pulse-1 {
+            0%, 100% { height: 20px; y: 280px; }
+            50% { height: 80px; y: 220px; }
+        }
+
+        @keyframes pod-pulse-2 {
+            0%, 100% { height: 40px; y: 260px; }
+            50% { height: 90px; y: 210px; }
+        }
+
+        @keyframes pod-pulse-3 {
+            0%, 100% { height: 60px; y: 240px; }
+            50% { height: 30px; y: 270px; }
+        }
+        
+        @keyframes steam-fumes {
+            0% {
+                opacity: 0;
+                transform: translateY(0) scale(0.5);
+            }
+            50% {
+                opacity: 0.7;
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(-40px) scale(1.2);
+            }
+        }
+
+        .background { fill: #282c34; animation: fadeIn 1s ease-in; }
+        .monitor-frame { fill: #1a1c22; }
+        .monitor-screen { fill: #000; }
+        .bash-text {
+            font-family: 'Courier New', Courier, monospace;
+            fill: #33FF33;
+            font-size: 14px;
+        }
+        .cursor {
+            fill: #33FF33;
+            animation: blink-caret 1s step-end infinite;
+        }
+        .pod { fill: #61afef; }
+        .pod1 { animation: pod-pulse-1 3s ease-in-out infinite; }
+        .pod2 { animation: pod-pulse-2 4s ease-in-out infinite; }
+        .pod3 { animation: pod-pulse-3 2.5s ease-in-out infinite; }
+
+        .desk { fill: #4a4a4a; }
+        .keyboard { fill: #222; }
+        .cup { fill: #e0e0e0; }
+        .coffee { fill: #3b2a1a; }
+        .steam {
+            stroke: #b0b0b0;
+            stroke-width: 2;
+            fill: none;
+            opacity: 0;
+            animation: steam-fumes 3s linear infinite;
+        }
+        .steam1 { animation-delay: 0s; }
+        .steam2 { animation-delay: 1s; }
+        .steam3 { animation-delay: 2s; }
+    </style>
+
+    <!-- Background -->
+    <rect class="background" width="800" height="400" />
+
+    <!-- Desk -->
+    <path class="desk" d="M0,350 L800,350 L800,400 L0,400 Z" />
+
+    <!-- Monitor 1 (Bash) -->
+    <rect class="monitor-frame" x="50" y="100" width="300" height="200" rx="10"/>
+    <rect class="monitor-screen" x="60" y="110" width="280" height="180"/>
+    <text x="70" y="135" class="bash-text">> starting server...</text>
+    <rect x="210" y="122" width="10" height="16" class="cursor" />
+
+    <!-- Monitor 2 (Pods) -->
+    <rect class="monitor-frame" x="450" y="100" width="300" height="200" rx="10"/>
+    <rect class="monitor-screen" x="460" y="110" width="280" height="180"/>
+    <text x="470" y="135" font-family="Arial" font-size="16" fill="#fff">Pod Monitoring</text>
+    <rect class="pod pod1" x="500" y="280" width="30" height="20" />
+    <rect class="pod pod2" x="550" y="260" width="30" height="40" />
+    <rect class="pod pod3" x="600" y="240" width="30" height="60" />
+
+    <!-- Keyboard -->
+    <rect class="keyboard" x="250" y="320" width="250" height="40" rx="5"/>
+
+    <!-- Coffee Cup -->
+    <g transform="translate(680, 310)">
+        <rect class="cup" y="0" width="60" height="40" rx="5"/>
+        <rect class="coffee" y="5" x="5" width="50" height="10" />
+        <!-- Steam fumes -->
+        <path class="steam steam1" d="M15,0 Q20,-15 25,0 T35,0" />
+        <path class="steam steam2" d="M30,0 Q35,-20 40,0 T50,0" />
+        <path class="steam steam3" d="M22,0 Q27,-10 32,0 T42,0" />
+    </g>
+</svg>
+
