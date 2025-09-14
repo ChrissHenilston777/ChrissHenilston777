@@ -10,6 +10,8 @@
   <h3>I am Azure DevOps Engineer and Solution Architect.</h3>
 </div>
 
+![Techie Animation](techie-animation.svg)
+
 ---
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=ChrissHenilston777&show_icons=true&theme=radical&include_all_commits=true&count_private=true&show=stars,commits,prs,issues,contribs)](https:https://github.com/ChrissHenilston777)
 
